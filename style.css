@@ -1,0 +1,62 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-image: url("img/assos3.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cover-container {
+  max-width: 42em;
+}
+
+.player{
+  border-radius: 5px; width: 470px; height: 145px;
+}
+
+@media screen and (max-width: 1068px) {
+  .player{
+    border-radius: 5px; width: 470px; height: 145px;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .player{
+    border-radius: 5px; width: 365px; height: 465px !important;
+  }
+  .src-components-widget__vertical--154vg .src-components-widget__radio-infos--1HpYM{
+    display: none;
+  }
+}
+
+
